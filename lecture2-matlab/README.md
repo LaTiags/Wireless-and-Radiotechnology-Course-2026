@@ -2,9 +2,9 @@
 
  
 
-**Student:** <ALVES Tiago> 
+**Student:** <name> ALVES TIago 
 
-**Student ID:** <ID> 
+**Student ID:** <ID> s2600229
 
 **Course:** Wireless and Radio Tech. (IT–IoT BSc) 
 
