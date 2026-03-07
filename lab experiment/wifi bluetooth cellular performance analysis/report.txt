@@ -1,0 +1,33 @@
+
+WIRELESS PERFORMANCE ANALYSIS AND CONCLUSION
+
+1. Distance vs. Signal Strength
+In all three cases, the received power (Pr) follows the inverse-square law (1/R^2). 
+As distance increases, the signal drops exponentially. This physical 
+limitation defines the effective communication range for each technology.
+
+2. WiFi vs. Bluetooth
+While both operate in the 2.4 GHz band, WiFi has a much higher transmit 
+power (100 mW) and bandwidth (22 MHz) compared to Bluetooth (10 mW 
+and 2 MHz). This allows WiFi to maintain a significantly higher capacity 
+over longer distances (up to 100m) than Bluetooth (limited to ~10m).
+
+3. Cellular Performance
+Cellular technology uses a much lower frequency (850 MHz) and a 
+significantly higher transmit power (40 Watts). This allows it to 
+cover vast distances (kilometers), whereas WiFi and Bluetooth are 
+physically limited to meters.
+
+4. Capacity Constraints
+Even though Cellular travels the furthest, its bandwidth per channel 
+(200 kHz) is the smallest of the three. Consequently, its peak 
+capacity (bitrate) is lower than WiFi's, illustrating the fundamental 
+trade-off between coverage area and data speed.
+
+5. Final Conclusion
+The simulation confirms that no single wireless technology is superior 
+in every metric. Instead, they are optimized for specific use cases: 
+Cellular for wide-area mobility, WiFi for high-speed local networking, 
+and Bluetooth for short-range, low-power connectivity. The performance 
+of each is strictly governed by the Friis Equation for propagation 
+and the Shannon-Hartley Theorem for data limits.
